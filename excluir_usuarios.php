@@ -9,7 +9,7 @@
       header ("location: lista_usuarios.php");
     }
     else{
-      echo "Erro: ".$sql;
+      echo "Erro:: ".$sql;
      }
    
 ?>

@@ -1,0 +1,7 @@
+Explicando e documentando o programa web utilizando o protocolo MVC.
+
+1- login.html: contém um formulário simples de login, que é validado pelo arquivo valida_login.php, que por sua vez, inclui um outro arquivo que faz a conexão com o banco de dados, o conexão.php
+
+2- valida_login.php: realiza a verificação de usuário cadastrado, por meio de uma consulta (select) no banco de dados referenciado. Realiza isso por meio de atribuição de uma string com os comandos SQL, essa string é adicionada como parâmetro ao objeto "mysli_query" que também carrega o parâmetro $conexão_bd para referenciar a conexão feita por meio de instância de objeto no arquivo conexão.php. Depois, verifica se as linhas do banco de dados são maiores que zero, por meio da propriedade "mysli_num_rows" com parâmetro $result que carrega a conexão com o banco de dados ($conexão_bd)
+
+3- conexão.php: aqui é onde é feito a ligação do programa com o banco de dados, criamos váriaveis locais para armazenar valores que precisamos passar como parâmetro ao objeto mysqli. 

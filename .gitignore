@@ -1,0 +1,22 @@
+# Arquivo de configuração com senhas (NUNCA ENVIE ISSO!)
+# Se seu arquivo tem outro nome (ex: config.php, database.php), adicione-o.
+.env
+config.php
+Produto_DAO.php
+
+# Dependências do Composer (elas são baixadas, não enviadas)
+/vendor/
+
+# Arquivo do Composer (se você baixou o .phar)
+composer.phar
+composer.lock
+
+# Arquivos de log
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do VS Code (opcional, mas recomendado)
+.vscode/

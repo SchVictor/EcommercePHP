@@ -3,6 +3,7 @@
 .env
 config.php
 Produto_DAO.php
+conexao.php
 
 # Dependências do Composer (elas são baixadas, não enviadas)
 /vendor/
